@@ -24,7 +24,7 @@ RUN npm install
 RUN npm install node-red-contrib-cloudera
 
 # User configuration directory volume
-EXPOSE 2000
+#EXPOSE 2000
 
 # Environment variable holding file path for flows configuration
 ENV FLOWS=flows.json
