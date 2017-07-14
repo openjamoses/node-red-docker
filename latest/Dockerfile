@@ -18,6 +18,7 @@ USER node-red
 
 # package.json contains Node-RED NPM module and node dependencies
 COPY package.json /usr/src/node-red/
+COPY sensor_flows.json /usr/src/node-red/
 
 RUN npm install
 RUN npm install node-red-contrib-cloudera
