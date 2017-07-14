@@ -5,6 +5,7 @@ RUN mkdir -p /usr/src/node-red
 
 # User data directory, contains flows, config and nodes.
 RUN mkdir /data
+COPY settings.js /data
 
 WORKDIR /usr/src/node-red
 
@@ -17,10 +18,11 @@ USER node-red
 
 # package.json contains Node-RED NPM module and node dependencies
 COPY package.json /usr/src/node-red/
+
 RUN npm install
 
 # User configuration directory volume
-EXPOSE 1880
+EXPOSE 2000
 
 # Environment variable holding file path for flows configuration
 ENV FLOWS=flows.json
