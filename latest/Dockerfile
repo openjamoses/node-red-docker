@@ -20,6 +20,7 @@ USER node-red
 COPY package.json /usr/src/node-red/
 
 RUN npm install
+RUN npm install node-red-contrib-cloudera
 
 # User configuration directory volume
 EXPOSE 2000
