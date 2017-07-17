@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/node-red
 
 # User data directory, contains flows, config and nodes.
 RUN mkdir /data
-COPY settings.js /data
+#COPY settings.js /data
 
 WORKDIR /usr/src/node-red
 
