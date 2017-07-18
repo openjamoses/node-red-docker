@@ -1,3 +1,7 @@
+#USAGE
+#docker build --no-cache=true -f latest/Dockerfile https://github.com/brianr82/node-red-docker.git -t brianr82/multinodered:latest
+#docker run -d -p 2001:1880 -e FLOWS=sensor_flows.json brianr82/multinodered:latest
+
 FROM node:6
 
 # Home directory for Node-RED application source code.
