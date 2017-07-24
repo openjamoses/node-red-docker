@@ -1,3 +1,6 @@
+#Usage
+# First Build the image on the docker host
+#docker build --no-cache=true -f rpi/Dockerfile https://github.com/brianr82/node-red-docker.git -t brianr82/multinodered:latest
 FROM hypriot/rpi-node:6
 
 # add support for gpio library
