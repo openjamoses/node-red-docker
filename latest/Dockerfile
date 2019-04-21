@@ -25,7 +25,8 @@ COPY package.json /usr/src/node-red/
 COPY sensor_flows.json /usr/src/node-red/
 
 RUN npm install
-RUN npm install node-red-contrib-cloudera
+#RUN npm install node-red-contrib-cloudera
+RUN npm install node-red-contrib-kafka-node-fix
 
 # User configuration directory volume
 #EXPOSE 2000
