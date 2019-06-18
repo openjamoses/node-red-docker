@@ -1,5 +1,4 @@
-# Node-RED-Docker
-
+# EMU-IoT-Gateway
 [![Greenkeeper badge](https://badges.greenkeeper.io/node-red/node-red-docker.svg)](https://greenkeeper.io/)
 
 This project describes some of the many ways Node-RED can be run under Docker.
