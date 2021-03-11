@@ -119,7 +119,7 @@
         "id": "7519a4c3.c03a7c",
         "type": "kafka",
         "z": "ec5b0dad.e19758",
-        "zkquorum": "10.12.7.64:2181",
+        "zkquorum": "127.0.0.1:9092",
         "topics": "SensorReadings",
         "debug": "",
         "x": 1185,
